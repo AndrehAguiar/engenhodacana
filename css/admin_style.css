@@ -1,0 +1,314 @@
+@charset "utf-8";
+/* CSS Document */
+.menu-logo_admin, .menu-logo_admin img{
+	visibility:hidden;
+	height:40px;
+}
+html, body{
+	margin:0;
+	border:0;
+}
+.logo{
+	visibility:hidden;
+}
+.logo_top_admin{
+	width: 28%;
+	min-width: 150px;
+	position: relative;
+	margin:0 auto;
+	background: none;
+	top: 0px;
+}
+.logo_top_admin img{
+	width:100%;
+	position: relative;
+	margin:20% auto;
+	z-index:300;
+	-moz-box-shadow: 0px 3px 14px #000000;
+		-webkit-box-shadow: 0px 3px 14px #000000;
+			box-shadow: 0px 3px 14px #000000;
+}
+
+.lista .alterna p{
+	color:#ccc;	
+	
+}
+.alterna{
+	min-height:40px;
+	cursor:pointer;
+	color:#ccc;	
+	padding:10px 0px 5px 5px;
+	clear:both
+}
+.alterna:nth-child(odd){
+background-color: rgba(255,255,255,0.032);
+	color:#ccc;	
+}
+.alterna:nth-child(even){
+background-color: rgba(255,255,255,0.021);
+	color:#ccc;	
+}
+.alterna a,{
+	width:100%;
+	padding:10px;
+	color:#FFF;
+}
+.alterna a:hover{
+	background-color:#900;
+	
+}
+.alterna:hover,.alterna:hover a{
+	background-color:#900;
+	color:#FFF;
+}
+.alterna:focus .alterna a:focus,.alterna:active .alterna a:active{
+	color:#fff;
+	background-color:#900;
+	
+}
+	 #divide_meio{
+		 visibility: visible;
+		 width:100%;
+		 margin:0 auto;
+		  border-color:#333;
+		  position:relative;
+	 }
+	 #divide{
+		 visibility: hidden;
+		  border-color:#333;
+		  position:relative;
+		 margin:0 auto;
+	 }
+h1, h2{
+	font-size:250%;
+	font-family: 'Philosopher', sans-serif;
+}
+.logout{
+	position: relative;
+	float:right;
+	right:0px;
+	color:#fff;
+	margin-top:-7%;
+}
+.logo-texto p{
+	width:60%;
+	font-size:100%;
+	margin-top:5%;
+}
+.content{
+	width:100%;
+	height:100%;
+	clear:both;
+	padding:0;
+}
+.conteudo{
+	padding:0px;
+	width:100%;
+	height: 100%;
+	position:relative;
+	margin:0 auto;
+	top:0px;
+	color:#ccc;	
+	clear:both;
+	font-family: 'Philosopher', sans-serif;
+}
+.conteudo h3, .conteudo h2{
+	font-size:150%;
+	text-align: left;
+	font-family: 'Kaushan Script', cursive;
+}
+.conteudo table{
+	position:relative;
+	float:left;
+}
+.conteudo .col-lg-3, .conteudo .col-lg-4, .conteudo .col-lg-5, .conteudo .col-lg-6{
+	position:relative;
+	min-width:200px;
+	margin:0px auto;
+}
+.lista{
+	width:100%;
+	position:relative;
+	max-height:350px;
+	overflow:auto;
+	text-align:left;
+}
+.cadastro_admin, .edita_usu, .exclui_usu, .exclui_feed, .cadastro_evento, .edita_evento, .exclui_evento, .cadastro_depo, .edita_depo, .exclui_depo{
+	width:100%;
+	height:100%;
+	z-index:5000;
+	visibility:hidden;
+	clear:both;	
+	  position: fixed;
+	  top: 0;
+	  left: 0;
+	  right: 0;
+	  bottom: 0;
+	  z-index: 999999;
+	background-image:url(../imagens/banner_bg/alambique-artesanal.jpg);
+}
+
+.cadastro_admin form, .edita_usu form, .exclui_usu form, .exclui_feed form, .cadastro_evento form, .edita_evento form, .exclui_evento form, .cadastro_depo form, .edita_depo form, .exclui_depo form{
+	width:50%;
+	height:100%;
+	min-width:250px;
+	position: relative;
+	margin:0 auto;
+	color:#fff;
+	min-height:250px;
+	max-height:600px;
+	overflow:auto;
+}
+.cadastro_admin form input, .edita_usu form input, .cadastro_evento form input, .edita_evento form input, .cadastro_depo form input, .cadastro_depo form select, .edita_depo form input, .edita_depo form select {
+	width:100%;
+	height:40px;
+	color:#000;
+	font-size:150%;
+}
+.cadastro_evento textarea, .edita_evento textarea, .cadastro_depo textarea,  .edita_depo textarea{
+	width:100%;
+	height:100px;
+	color:#000;
+}
+.alterna p{
+	color:#000;
+	text-align:justify;
+	margin:10px;
+}
+.alterna a{
+	padding:2px;
+}
+.alterna a:hover{
+	color:#FFF;
+	background-color:#900;
+	
+}
+.alterna a:focus{
+	color:#fff;
+	background-color:#900;
+	
+}
+.botoes{
+	position:relative;
+	float:right;
+	margin:10px 5px;
+	padding:5px 1px;
+	cursor:pointer;
+	background-color:#900;
+}
+.botoes a{
+	padding:7px 13px;
+	color:#fff;
+}
+.botoes a:hover{
+	background-color:#F00;
+}
+.botoes a:active{
+	background-color:#000;
+}
+.botoes a:focus{
+	color:#000;
+}
+ #cadastro{
+	 float: right;
+ }
+ .confirma{
+	 color:#fff;
+	 position:relative;
+	 float:left;
+	 padding-top:15px;
+	 padding-bottom:7px;
+	 font-size:100%;
+	 font-weight:bold;
+ }
+.sucesso p{
+	 color:#390;
+ }
+.sucesso p{
+	 color:#900;
+ }
+@media all and (max-width: 1640px), only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min--moz-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (-o-min-device-pixel-ratio: 2/1) and (max-width: 1024px), only screen and (min-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min-resolution: 192dpi) and (max-width: 1024px), only screen and (min-resolution: 2dppx) and (max-width: 1240px) { 
+	.conteudo h2{
+		font-size:150%;
+	}
+	 #cadastro{
+		 font-size:50%;
+		 padding:10px;
+	 }
+	.logout{
+		position:absolute;
+		float:right;
+		top:70%;
+	}
+}
+@media (max-width:1190px){
+	h1{
+		text-align:center;
+		font-size:100%;
+	}
+	h2{
+		font-size:100%;	
+	}
+	 #divide_meio{
+		 visibility:hidden;
+	 }
+	 #divide{
+		 width:97%;
+		 visibility: visible;
+		 margin:30px auto;
+		 position:relative;
+		 float:right;
+	 }
+	.conteudo h2{
+		text-align: center;
+		position:relative;
+		clear:both;
+	}
+	.conteudo .col-lg-3 h2, .conteudo .col-lg-4 h2, .conteudo .col-lg-5 h2, .conteudo .col-lg-6 h2{
+		text-align: left;
+	}
+	#cabecalho h1 {
+		width: auto;
+		line-height:150%;
+		text-align:center;
+	}
+	 #cadastro{
+		 font-size:50%;
+		 padding:5px;
+		 margin-top:30px;
+	 }
+	.lista{
+		position:relative;
+		width:109%;
+		margin:0px auto;
+	}
+	.logo_top_admin img{
+		width:100%;
+		left:5%;
+		padding:10px 10px 10px 10px;
+	}
+	.logo_top_admin{
+		width:15%;
+	}
+	.logout{
+		position:absolute;
+		float:right;
+		top:70%;
+	}
+}
+@media (max-width:490px){
+	h1{
+		text-align: center;
+		width:50%;
+		font-size:120%;
+		line-height:10%;
+	}
+	h2{
+		width:97%;
+		font-size:120%;	
+		line-height:5%;
+	}
+	 .cadastro_admin form, .edita_usu form, .exclui_usu form, .exclui_feed form, .cadastro_evento form, .edita_evento form, .exclui_evento form, .cadastro_depo form, .edita_depo form, .exclui_depo form{
+	width:95%;
+	}
+}

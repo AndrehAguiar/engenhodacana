@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_RsAdminFeeds" value="name:id_email;datatype:int,name:ass_email;datatype:string,name:ass_data;datatype:datetime" />
+	<infoitem key="UD_RsAdminUser" value="name:id_usu;datatype:int,name:usu_nome;datatype:string,name:usu_email;datatype:string,name:usu_data;datatype:datetime" />
+	<infoitem key="UD_RsExcluiUser" value="name:id_usu;datatype:int,name:usu_nome;datatype:string,name:usu_email;datatype:string,name:usu_senha;datatype:string,name:usu_data;datatype:datetime" />
+	<infoitem key="UD_RsEditaUser" value="name:id_usu;datatype:int,name:usu_nome;datatype:string,name:usu_email;datatype:string,name:usu_senha;datatype:string,name:usu_data;datatype:datetime" />
+	<infoitem key="UD_RsExcluiFeed" value="name:id_email;datatype:int,name:ass_email;datatype:string,name:ass_data;datatype:datetime" />
+	<infoitem key="UD_RsAdminEventos" value="name:id_evento;datatype:int,name:nome_evento;datatype:string,name:data_evento;datatype:string,name:hora_evento;datatype:string,name:descri_evento;datatype:blob,name:local_evento;datatype:string,name:end_evento;datatype:string,name:data_cadastro;datatype:datetime,name:user_evento;datatype:string" />
+	<infoitem key="UD_RsEditaEvento" value="name:id_evento;datatype:int,name:nome_evento;datatype:string,name:data_evento;datatype:string,name:hora_evento;datatype:string,name:descri_evento;datatype:blob,name:local_evento;datatype:string,name:end_evento;datatype:string,name:data_cadastro;datatype:datetime,name:user_evento;datatype:string" />
+	<infoitem key="UD_RsExcluiEvento" value="name:id_evento;datatype:int,name:nome_evento;datatype:string,name:data_evento;datatype:string,name:hora_evento;datatype:string,name:descri_evento;datatype:blob,name:local_evento;datatype:string,name:end_evento;datatype:string,name:data_cadastro;datatype:datetime,name:user_evento;datatype:string" />
+	<infoitem key="UD_RsConfirmaUsu" value="name:id_usu;datatype:int,name:usu_nome;datatype:string" />
+	<infoitem key="UD_RsConfirmaFeed" value="name:id_email;datatype:int,name:ass_email;datatype:string" />
+	<infoitem key="UD_RsConfirmaEvento" value="name:id_evento;datatype:int,name:nome_evento;datatype:string" />
+	<infoitem key="UD_RsAdminDepo" value="name:id_depo;datatype:int,name:nome_depo;datatype:string,name:depo_categ;datatype:string,name:depoimento;datatype:blob,name:usu_cadastro;datatype:string,name:data_cadastro;datatype:datetime" />
+	<infoitem key="UD_RsConfirmaDepo" value="name:id_depo;datatype:int,name:nome_depo;datatype:string,name:depo_categ;datatype:string" />
+	<infoitem key="UD_RsEditaDepo" value="name:id_depo;datatype:int,name:nome_depo;datatype:string,name:depo_categ;datatype:string,name:depoimento;datatype:blob,name:usu_cadastro;datatype:string,name:data_cadastro;datatype:datetime" />
+	<infoitem key="UD_RsExcluiDepo" value="name:id_depo;datatype:int,name:nome_depo;datatype:string,name:depo_categ;datatype:string,name:depoimento;datatype:blob,name:usu_cadastro;datatype:string,name:data_cadastro;datatype:datetime" />
+</info>

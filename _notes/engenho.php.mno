@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_RsListaDepo" value="name:id_depo;datatype:int,name:nome_depo;datatype:string,name:depo_categ;datatype:string,name:depoimento;datatype:blob" />
+</info>

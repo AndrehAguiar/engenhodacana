@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_RsListaEventos" value="name:nome_evento;datatype:string,name:data_evento;datatype:string,name:hora_evento;datatype:string,name:descri_evento;datatype:blob,name:local_evento;datatype:string,name:end_evento;datatype:string" />
+	<infoitem key="UD_RsListaDepo" value="name:id_depo;datatype:int,name:nome_depo;datatype:string,name:depo_categ;datatype:string,name:depoimento;datatype:blob" />
+</info>

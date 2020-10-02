@@ -1,0 +1,141 @@
+
+/** page structure **/
+#rotator-produtos {
+  display: block;
+  width:100%;
+  height:auto;
+  max-width: 1920px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding: 3px 5px;
+	font-family: 'Philosopher', sans-serif;
+}
+
+
+/** posts slider widget **/
+.crsl-items, .crsl-adms, .crsl-bdvs, .crsl-nrs, .crsl-edcs {
+  display: block;
+  padding: 15px;
+}
+
+.crsl-item {
+	background-color:rgba(0,0,0,.7);
+  padding: 5px;
+  -webkit-box-shadow: 0 2px 3px rgba(0,0,0,0.4);
+  -moz-box-shadow: 0 2px 3px rgba(0,0,0,0.4);
+  box-shadow: 0 2px 3px rgba(0,0,0,0.4);
+}
+
+.crsl-item .thumbnail {
+  display: block;
+  position: relative;
+  margin-bottom: 10px;
+  cursor: pointer;
+  border:none;
+}
+.crsl-item .thumbnail img { 
+  display: block; /* fix 1px image space http://stackoverflow.com/q/5804256/477958 */
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+.thumbnail{
+  background:#000;
+}
+.crsl-item .thumbnail:hover img {
+  opacity: 0.8;
+}
+
+.crsl-item h3 {
+  font-size: 1.5em;
+  line-height: 1.25em;
+  margin-bottom: 12px;
+  font-family: 'Kaushan Script', cursive;
+}
+.crsl-item h3 a {
+  text-decoration: none;
+  color: #FFF;
+}
+.crsl-item h3 a:hover {
+  text-decoration: underline;
+	color:#900;
+}
+
+.crsl-item .postdate {
+	width: auto;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 6px;
+  color: #FFF;
+  box-shadow: 1px 1px 0 rgba(0,0,0,0.4);
+  font-size: 1.2em;
+  font-weight: bold;
+  background:#900;
+  text-align:center;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.4);
+  border-radius:0px 0px 3px 0px;
+  -webkit-border-radius:0px 0px 3px 0px;
+  -moz-border-radius:0px 0px 3px 0px;
+}
+
+.crsl-item p {
+	width:90%;
+	margin:5px auto; 
+	color:#ccc;
+	font-size: 1.2em;
+	line-height: 1.55em;
+	text-align: justify;
+}
+.crsl-item h3{
+	text-align: center;
+}
+.crsl-item p.readmore a {
+  display: block;
+  float: right;
+  color: #900;
+  padding: 3px 5px;
+  text-decoration: none;
+  font-weight: bold;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+.crsl-item p.readmore a:hover {
+  background: #900;
+  color: #FFF;
+  border: inset 1px #000;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.4);
+}
+
+
+
+
+
+/** media queries **/
+@media screen and (max-width: 960px) {
+  h1 { font-size: 2.4em; line-height: 1.2em; }
+  
+  .crsl-item h3 { font-size: 1.65em; }
+  .crsl-item, .slidernav a{
+	  font-size:80%;
+  }
+  .crsl-item .postdate{
+	  width:auto;
+	  font-size:80%;
+  }
+}
+
+@media (max-width:480px){
+  #rotator-produtos h1 { font-size: 180%;
+	
+}.crsl-item {
+  padding: 10px 40px 10px 10px;
+  }
+/** clearfix **/
+.clearfix:after { content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0; }
+.clearfix { display: inline-block; }
+ 
+html[xmlns] .clearfix { display: block; }
+* html .clearfix { height: 1%; }

@@ -1,0 +1,1003 @@
+@charset "utf-8";
+/* CSS Document */
+.preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 999999;
+  background: #000;
+  overflow:hidden;
+}
+.preloader > .logo-preload{
+  position: relative;
+  margin:21% auto;
+  width: 100px;
+  clear:both;
+}
+.preloader > .logo-preload > img{
+  width:100%;
+  height:auto;
+  position: relative;
+ }
+.preloader > i {
+	color:#FFF;
+  position: absolute;
+  font-size: 36px;
+  line-height: 36px;
+  top: 50%;
+  left: 50%;
+  height: 36px;
+  width: 36px;
+  margin-top: -15px;
+  margin-left: -15px;
+  display: inline-block;
+}
+body{
+	border:0 0;
+	margin:0 0;
+	background: #000;
+	font-family: 'Philosopher', sans-serif;
+}
+
+.login{
+	width:100%;
+	height: auto;
+	min-height:100%;
+	position: fixed;
+	background-color:#000;
+	float:none;
+	z-index:5000;
+   overflow:hidden;
+	font-family: 'Philosopher', sans-serif;
+
+}
+.login .logo{
+	width:250px;
+	visibility:visible;
+	margin:5% auto;
+}
+.login .logo img{
+	width:100%;
+}
+.login form{
+	width:250px;
+	margin:0 auto;
+	color:#fff;
+}
+.login form input{
+	width:100%;
+}
+.fa{
+	font-size: 20px;
+	line-height:10px;
+}
+hr{
+	border-color:#666;
+	margin:0px 0px;
+}
+
+#locais{
+	width:90%;
+	margin:0 auto;
+	border-color:#333;
+}
+.header{
+	width:100%;
+	position:fixed;
+	top:0px;
+	background-color:#000;
+	z-index:290;
+	border-bottom: inset #333 1px;
+	-moz-box-shadow: 0px 3px 14px #000000;
+		-webkit-box-shadow: 0px 3px 14px #000000;
+			box-shadow: 0px 3px 14px #000000;
+}
+.busca{
+	font-family: 'Philosopher', sans-serif;	
+	width:30%;
+	position:absolute;
+	float:right;
+	top:80px;
+	right:5%;
+	z-index:200;
+}
+.busca input{
+	width:100%;
+	height:40px;
+	font-size:24px;
+	background-color:rgba(255, 255, 255, .1);
+}
+
+.busca #livesearch{
+	position:relative;
+	font-size:24px;
+	width:100%;
+	background-color:rgba(0,0,0,.7);
+	
+}
+.menu-logo, .menu-logo img, #pag_contato .menu-logo, #pag_contato .menu-logo img{
+	visibility:hidden;
+	height:40px;
+}
+.logo{
+	visibility:hidden;
+}
+.logo_top{
+	width: 12%;
+	background: none;
+	position: absolute;
+	top: 0px;
+	visibility: visible;
+}
+.logo_top img{
+	width:100%;
+	left:55%;
+	background:#900;
+	position: absolute;
+	padding:20px 20px 20px 20px;
+	-moz-border-radius:0px 0px 10px 10px;
+		-webkit-border-radius:0px 0px 10px 10px;
+			border-radius:0px 0px 10px 10px;
+	border:inset 3px #FFF;
+	z-index:300;
+	-moz-box-shadow: 0px 3px 14px #000000;
+		-webkit-box-shadow: 0px 3px 14px #000000;
+			box-shadow: 0px 3px 14px #000000;
+}
+.logo-form{
+	width:15%;
+	min-width:100px;
+	max-width:250px;
+	margin:3% auto;
+}
+.logo-form img{
+	width:100%;
+	margin:0 auto;
+}
+.carousel{
+	margin-top:-100px;	
+	z-index:100;
+	border-bottom:solid 1px #900;
+	clear:both;
+}
+
+.parallax-window{
+	width:100%;
+	margin:0px 0px;
+	
+}
+.parallax-content{
+	margin-top:-100px;
+	position:relative;
+	padding-top:220px;
+	padding-bottom:220px;
+	
+}
+.swiper-slider{
+	position:relative;
+	padding-top:50px;
+	padding-bottom:20px;
+	
+}
+.footer .parallax-content{
+	position:relative;
+	padding-top:30px;
+	padding-bottom:50px;
+	
+}
+.anterior{
+	position: absolute;
+	width:60px;
+	height:60px;
+	top:450px;
+	left:15px;
+	border:solid 1px #990000;
+	-moz-border-radius:50px 50px 50px 50px;
+		-webkit-border-radius:50px 50px 50px 50px;
+			border-radius:50px 50px 50px 50px;
+	background:#000;
+	z-index:200;
+	opacity:0.3;
+}
+.anterior:hover{
+	opacity:0.7;
+}
+.btn .fa{
+	font-size:36px;
+	margin-left:0px;
+	margin-top:17px;
+	color:#fff;
+}
+.proximo{
+	position: absolute;
+	width:60px;
+	height:60px;
+	top:450px;
+	right:15px;
+	border:solid 1px #990000;
+	-moz-border-radius:50px 50px 50px 50px;
+		-webkit-border-radius:50px 50px 50px 50px;
+			border-radius:50px 50px 50px 50px;
+	background:#000;
+	z-index:200;
+	opacity:0.3;
+}
+.proximo:hover{
+	opacity:0.7;
+}
+.rotator p{
+	font-family: 'Philosopher', sans-serif;
+	}
+#depoimentos{
+	width:100%;
+}
+.content-depoimentos p{
+	font-family: 'Philosopher', sans-serif;
+	}
+.content-depoimentos{
+	font-family: 'Philosopher', sans-serif;
+	position:relative;
+	float:left;
+	width:30.33%;
+	text-align:justify;
+	background:#000;
+	 word-break:break-all;
+	margin-left:3%;	
+}
+.content-depoimentos .swiper-testimonials h2{
+	margin-top:-30px;
+}
+.swiper-testimonials h2, .onde-comprar h2, .canal h2{
+	text-align:left;
+}
+.content-depoimentos .color-link{
+	color:#900;
+}
+.content-depoimentos p{
+	color:#FFF;
+}
+.content-depoimentos #cadastro{
+	 float: right;
+	 z-index:100;
+ }
+.onde-comprar{
+	width:30.33%;
+	position:relative;
+	float:left;
+	margin-left:1%;	
+}
+ .canal{
+	width:30.33%;
+	position:relative;
+	float:left;
+	margin-left:1%;	
+ }
+ .onde-comprar iframe{
+	 width:100%;
+	 height:100%;
+	 min-height:250px;
+ }
+  .canal iframe{
+	 width:100%;
+	 height:100%;
+	 min-height:250px;
+ }
+ .bg-color-sky-light{
+ -moz-box-shadow:inset 0px 0px 75px #000000;
+-webkit-box-shadow:inset 0px 0px 75px #000000;
+box-shadow:inset 0px 0px 75px #000000;
+ }
+.container .row .service .service-info{
+	width:80%;
+}
+.destaques p{
+	font-family: 'Philosopher', sans-serif;
+	text-align:justify;
+	color:#F0F0F0;
+}
+.destaques{
+	background-image:url(../imagens/banner_bg/Cachacas-Destaques-Engenho-da-Cana.jpg);
+	background-attachment:fixed;
+	border-top: solid 1px #333;
+	border-bottom: solid 1px #333;
+	width:100%; 
+	padding:0px 0px;
+	margin:0px 0px;
+}
+
+.slidernav i{
+		font-size:36px;
+	}
+/** posts slider nav **/
+.previous, .next{
+	position: absolute;
+	clear:both;
+	margin-top:-20%;
+}
+.previous{
+	float:left;
+	left:5%;
+}
+.next{
+	float:right;
+	right:5%;
+}
+.slidernav a {
+	  text-transform:uppercase;
+	  display: inline-block;
+	  padding: 5px 5px;
+	  margin-right: 8px;
+	  font-size: 1.6em;
+	  color: #FFF;
+	  text-decoration: none;
+	  -webkit-border-radius: 10px;
+	  -moz-border-radius: 10px;
+	  border-radius: 10px;
+	  -webkit-box-shadow: 2px 2px 0px rgba(0,0,0,0.2);
+	  -moz-box-shadow: 2px 2px 0px rgba(0,0,0,0.2);
+	  box-shadow: 2px 2px 0px rgba(0,0,0,0.2);
+}
+.slidernav a:hover{
+	color:#900;
+}
+.slidernav a:active {
+  -webkit-box-shadow: 1px 1px 0 rgba(0,0,0,0.2);
+  -moz-box-shadow: 1px 1px 0 rgba(0,0,0,0.2);
+  box-shadow: 1px 1px 0 rgba(0,0,0,0.2);
+}
+.premios .row-space-1{
+	max-height:500px;
+	overflow:auto;
+}
+
+.destaques .row{
+	background-color:rgba(0,0,0,.7);
+	margin:0px auto;
+	padding:0px 60px;
+	}
+.destaques .row h4, .destaques .row h4 a{
+	text-align:left;
+	font-family: 'Kaushan Script', cursive;
+	color:#FFF;
+}
+.destaques .row h4 a:hover{
+	color:#900;
+}
+.eventos{
+	width:100%;
+	padding-top:70px;
+	padding-bottom:70px;
+}
+#agenda_list{
+	position: relative;
+	left:5%;
+	width:55%;
+	max-width:650px;
+	min-height:400px;
+	height:100%;
+}
+#agenda_list h2{
+	margin-left:-3%;
+}
+.lista{
+	width:100%;
+	max-height:300px;
+	overflow:auto;
+	font-family: 'Philosopher', sans-serif; 
+}
+.promo-section  #contato{
+	padding-top:70px;
+}
+.promo-section  #contato ul, .footer-seperator #contato ul{
+	line-height:250%;
+}
+.promo-section  #contato ul li,  .footer-seperator #contato ul li{
+	margin-bottom:10px;
+	color:#FFF;
+	font-family: 'Philosopher', sans-serif; 
+} 
+.depoimento .data, .depoimento .hora, .depoimento .nome, .depoimento .email, .depoimento .telefone, .depoimento .movel, .cadastro_evento .email,  .cadastro_evento .nome, .cadastro_evento .data, .cadastro_evento .hora, .edita_evento .email,  .edita_evento .nome, .edita_evento .data, .edita_evento .hora, .cadastro_depo .email,  .cadastro_depo .nome, .cadastro_depo .data, .cadastro_depo .hora, .edita_depo .email,  .edita_depo .nome, .edita_depo .data, .edita_depo .hora, #form_contato .nome, #form_contato .email, #form_contato .telefone, #form_contato .movel{
+	position: relative;
+	text-align:left;
+	width:49.5%;
+	font-family: 'Philosopher', sans-serif; 
+}
+.envia_depo, .envia_evento{
+	width:100%;
+	height:100%;
+	z-index:5000;
+	visibility:hidden;
+	clear:both;	
+	  position: fixed;
+	  top: 0;
+	  left: 0;
+	  right: 0;
+	  bottom: 0;
+	  z-index: 999999;
+	background-image:url(../imagens/banner_bg/armazenamento-cachacas-engenho-da-cana.jpg);
+}
+.envia_depo form, .envia_evento form{
+	width:50%;
+	height:80%;
+	min-width:250px;
+	position: relative;
+	margin:0 auto;
+	color:#fff;
+	min-height:250px;
+	max-height:500px;
+	overflow:auto;
+	font-family: 'Philosopher', sans-serif; 
+}
+
+.envia_depo form h2, .envia_evento form h2{
+	text-align:center;	
+	font-size:180%;
+	font-family: 'Philosopher', sans-serif; 
+}
+.envia_depo textarea, .envia_evento textarea{
+	width:100%;
+	height:200px;
+	color:#000;
+}
+.envia_depo form .tooltip-inner{
+		height:40px;
+		color:#fff;
+		font-size:100%;
+		width:100%;
+		text-align: left;
+		background-color:#000;
+		border:none;
+		}
+.assinatura{
+	width:80%;
+	margin:10px auto;
+}
+.eventos .assinatura h2{
+	text-align: center;
+	margin:20px auto;
+}
+.assinatura input{
+	width:85%;
+	position:relative;
+	float:left;
+}
+.sucesso p{
+	margin-top:25px;
+	color:#900;
+	font-size:14px;
+	font-weight:bold;
+}
+.footer .parallax-content{
+	position:relative;
+	padding-top:70px;
+	padding-bottom:20px;
+	bottom:0px;
+}
+.footer .parallax-content .container{
+	position:relative;
+	width:100%;
+	margin:0px auto;
+}
+.footer a{
+	font-family: 'Philosopher', sans-serif; 
+}
+.footer p{
+	position:relative;
+	padding:35px;
+	font-family: 'Philosopher', sans-serif; 
+}
+.assinatura .footer-input, .login .footer-input, .busca .footer-input, .envia_depo .footer-input, .envia_evento .footer-input, .footer-seperator .footer-input{
+	background:rgba(255,255,255,.1);
+	font-size:150%;
+	color:#F5F5F5;
+}
+
+#form .container{
+	background:rgba(0,0,0,.5);
+	min-width:100%;
+	padding: 50px 7%;
+}
+.marca{
+	text-align:center;
+}
+.marca img{
+	width:50%;
+	margin:17% auto;
+}
+#cachacas {
+	margin:0 auto;
+	left:5%;
+}
+#cachacas h3{
+	margin-left:-5%;
+	margin-bottom:10%;
+}
+.fb-page{
+	margin-top:2%;
+}
+.ouro{
+	color:#CFAA16
+}
+.ouro:hover{
+	color:#FC0;
+}
+.prata{
+	color:#CCC;
+	}
+.prata:hover{
+	color:#F0F0F0;
+	}.overflow-h h2{
+	text-align:center;
+}
+.overflow-h{
+	position:relative;
+	background-color:#000;
+	width: 100%;
+	height:400px;
+}
+.mapa iframe{
+	position:relative;
+	width:100%;
+}
+.mapa {
+	height:100%;
+	position:relative;
+	background:none;
+	-moz-box-shadow: 0px 10px 30px #000000;
+		-webkit-box-shadow: 0px 10px 30px #000000;
+			box-shadow: 0px 10px 30px #000000;
+			
+}
+@media all and (max-width: 1640px), only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min--moz-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (-o-min-device-pixel-ratio: 2/1) and (max-width: 1024px), only screen and (min-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min-resolution: 192dpi) and (max-width: 1024px), only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
+	.preloader > .logo-preload{
+		margin:0 auto;
+		top:40%;
+	}	
+	.logo_top{
+		width: 10%;
+		background: none;
+		position: absolute;
+		top: 0px;
+		visibility: visible;
+	}
+	.logo_top img{
+		width:100%;
+		left:30%;
+		background:#900;
+		position: absolute;
+		padding:10px 10px 10px 10px;
+		-moz-border-radius:0px 0px 10px 10px;
+			-webkit-border-radius:0px 0px 10px 10px;
+				border-radius:0px 0px 10px 10px;
+		border:inset 3px #FFF;
+		z-index:300;
+		-moz-box-shadow: 0px 3px 14px #000000;
+			-webkit-box-shadow: 0px 3px 14px #000000;
+				box-shadow: 0px 3px 14px #000000;
+	}
+	.postdate{
+		width:45%;
+	}
+  
+	.content-depoimentos{
+		width:32%;
+		margin-right:1%;
+	}
+	.content-lg .container .marcas{
+		width:100%;
+	}
+	.container .row .service .service-info{
+	width:80%;
+	}
+	#agenda_list{
+		margin-left:3%;
+		width:65%;		
+	}
+	.promo-section #contato{
+		left:-75px;
+	}
+	
+/** posts slider nav **/
+.previous, .next{
+	margin-top:0;
+}
+}
+@media (max-width:1210px){
+.preloader > .logo-preload{
+	margin:0 auto;
+	top:37%;
+}
+	.logo_top{
+		visibility: hidden;
+	}
+	.topo{		
+		width:100%;
+		height:200px;
+		position: absolute;
+		top:50px;
+		visibility: visible;
+		z-index:290;
+	}
+	.logo{
+		width:100%;
+		max-width:150px;
+		margin:0px auto;
+		visibility: visible;
+	border-bottom: inset #333 1px;
+	-moz-box-shadow: 0px 3px 14px #000000;
+		-webkit-box-shadow: 0px 3px 14px #000000;
+			box-shadow: 0px 3px 14px #000000;
+		-moz-border-radius:0px 0px 10px 10px;
+			-webkit-border-radius:0px 0px 10px 10px;
+				border-radius:0px 0px 10px 10px;
+
+	}
+	.logo img{
+		max-width:150px;
+		background:#900;
+		padding:10px 10px 10px 10px;
+		-moz-border-radius:0px 0px 10px 10px;
+			-webkit-border-radius:0px 0px 10px 10px;
+				border-radius:0px 0px 10px 10px;
+		border:inset 3px #FFF;
+	} 
+  
+	.content-depoimentos{
+		width:30%;
+		margin-left:1%;
+	}
+	.onde-comprar, .canal{
+		width:45%;
+		margin-left:3%;	
+	}
+	.assinatura input{
+		width:80%;
+	}
+
+}
+@media (max-width:1209px){ 
+	.header{
+		width:100%;
+		position:fixed;
+		top:0px;
+		background:#000;
+	}
+	
+	.busca{
+		clear:both;
+	}
+	.carousel{
+		
+		margin-top:0px;
+	}
+	.content-depoimentos{
+		width:90%;
+		margin-left:5%;
+	}
+	.onde-comprar{
+		width:45%;
+		left:1%;	
+	}
+	 .canal{
+		margin-left:5%;	
+		width:45%;
+	 }
+	 .onde-comprar iframe{
+		 width:100%;
+		 min-height:250px;
+	 }
+	  .canal iframe{
+		 width:100%;
+		 min-height:250px;
+	 }
+	 .container, .container .row{
+		 width:100%;
+	 }
+	 .container .row .service,.container .row .service  .col-sm-4{
+		 width:100%;
+	 }
+	 .container .row .service h3{
+		 font-size:120%;
+	 }
+	.container .row .service .service-info{
+		width:60%;
+		max-height:200px;
+	}
+	
+	.envia_depo form, .envia_evento form{
+		width:60%;
+	}
+	.promo-section #contato{
+		position: relative;
+		margin-left:0px;
+	}
+	#agenda_list{
+		width:50%;
+		margin-left:0px;
+	}
+}
+
+@media (max-width:980px){
+	.preloader > .logo-preload{
+		margin:0 auto;
+	}
+  
+	.envia_depo form, .envia_evento form{
+		width:90%;
+	}
+	
+	.assinatura{
+		width:40%;
+	}
+	.eventos .assinatura h2{
+		font-size:170%;
+		text-align:left;
+		margin-top:20%;
+	}
+	.assinatura input{
+		margin-left:0;
+	}
+	#agenda_list{
+		width:80%;
+		margin:0 auto;
+		left:0px;
+	}
+	
+	.promo-section #contato{
+		position: relative;
+		float:left;
+		width:40%;
+	}	
+	
+}
+@media (max-width:920px){ 
+	
+	.footer-seperator #contato{
+		width:100%;
+		float: left;
+		position:relative;
+		clear:both;
+	}
+	.footer-seperator #formulario{
+		width:100%;
+		float: left;
+	}
+	 #form_contato .nome, #form_contato .email{
+		position: relative;
+		text-align:left;
+		width:100%;
+	}
+	.menu-logo, .menu-logo img, #pag_contato .menu-logo, #pag_contato .menu-logo img{
+		padding:5px;
+		position: fixed;
+		float:left;
+		z-index:9999;
+		visibility: visible;
+	}
+	.eventos{
+		width:100%;
+	}
+	.assinatura{
+		width:45%;
+		margin-left:55%;
+	}
+	.promo-section #contato{
+		margin-left:10%;
+		width:50%;
+	}
+}
+@media (max-width:768px){ 
+.preloader > .logo-preload{
+	margin:0 auto;
+}
+	
+	.busca{
+		width:50%;
+		top:9%;
+		clear:both;
+	}
+	.content-depoimentos{
+		width:95%;
+		margin-left:15%;
+	}
+	.onde-comprar, .canal{
+		width:98%;
+		margin-left:15%;
+	}
+	 .container, .container .row{
+		 width:80%;
+	 }
+	 .container .row .service,.container .row .service{
+		margin-left:10%;
+	 }
+	 .container .row .service,.container .row .service  .col-sm-4{
+		 width:100%;
+		 max-width:350px;
+	 }
+	 .container .row .service h3{
+		 font-size:160%;
+	 }
+	.container .row .service .service-info{
+		width:70%;
+	}
+	.eventos{
+		width:100%;
+	}
+	.eventos #agenda_list{
+		width:100%;
+		margin-left:5%;
+	}
+	.assinatura{
+		width:60%;
+		margin-left:55%;
+	}		
+	.promo-section #contato{
+		width:60%;
+		margin-left:20%;
+	}		
+	.promo-section #contato ul li{
+		font-size:100%;
+	}
+	.section-seperator .container{
+		width:70%;
+	}
+	.section-seperator .container .col-sm-3{
+		width:100%;
+	}
+}
+@media (max-width:690px){
+.preloader > .logo-preload{
+	margin:0 auto;
+	top:30%;
+}
+
+.envia_depo form h2, .envia_evento form h2{
+	font-size:120%;
+}
+	.destaques .row{
+		width:100%;
+	}
+	.busca{
+		top:5%;
+		clear:both;
+	}
+.depoimento .data, .depoimento .hora, .depoimento .nome, .depoimento .email, .cadastro_evento .email,  .cadastro_evento .nome, .cadastro_evento .data, .cadastro_evento .hora, .edita_evento .email,  .edita_evento .nome, .edita_evento .data, .edita_evento .hora, .cadastro_depo .email,  .cadastro_depo .nome, .cadastro_depo .data, .cadastro_depo .hora, .edita_depo .email,  .edita_depo .nome, .edita_depo .data, .edita_depo .hora {
+	width: 100%;
+}
+ .container .row .service,.container .row .service{
+		clear:both;
+	 }
+	 .container .row .service,.container .row .service  .col-sm-4{
+		 width:100%;
+		 max-width:500px;
+	 }
+	.container .row .service .service-info{
+		margin-left:5%;
+	}
+	.assinatura{
+		width:100%;
+		float:left;
+		margin-left:0%;
+		margin-top:80px;
+	}	
+	.envia_depo form, .envia_evento form{
+		width:90%;
+	}		
+	.assinatura input{
+		width:95%;
+	}	
+	.promo-section #contato{
+		width:90%;
+		margin-left:20%;
+		top:100px;
+		margin-bottom:200px;
+	}		
+	.promo-section #contato ul li{
+		font-size:120%;
+	}
+	.footer #cachacas{
+		width:60%;
+		margin-left:-5%;
+	}	
+	.fb-page{
+		margin:0 auto;
+	}
+}
+@media (max-width:580px){
+	.container h2, .container h1{
+		font-size:180%;
+	}
+	.container, .container .row{
+		 width:100%;
+	 } 
+	.content-depoimentos{
+		margin-left:5%;
+	}
+	.onde-comprar, .canal{
+		margin-left:5%;
+	}
+	 .container .row .service,.container .row .service{
+		margin-left:-5%;
+	 }	
+	.eventos #agenda_list{
+		width:90%;
+		margin-left:10%;
+		
+	}	
+	.assinatura{
+		width:95%;
+		margin-left:5%;
+		clear:both;
+	}
+	.promo-section #contato{
+		width:90%;
+		margin-left:20%;
+		margin-top:-20%;
+	}	
+	.promo-section #contato h2{
+		margin-left:0%;
+	}
+	.promo-section #contato ul li{
+		font-size:130%;
+	}
+	.footer #cachacas h2{
+		text-align:center;	
+		font-size:250%;	
+	}
+	.footer #cachacas{
+		width:100%;
+		margin:0 auto;
+		text-align:center;
+		clear:both;
+	}
+	.footer #cachacas a{
+		font-size:130%;
+		line-height:150%;
+	}
+	.footer p{
+		font-size:90%;
+	}
+	.section-seperator .container{
+		width:90%;
+	}
+	.section-seperator .container .col-sm-3{
+		width:100%;
+	}
+}
+@media (max-width:490px){ 
+
+	#form_contato .telefone, #form_contato .movel{
+		width:100%;
+	}
+	.envia_depo form, .envia_evento form{
+		width:95%;
+	}
+	 .container .row .service,.container .row .service{
+		margin-left:10%;
+		width:80%;
+	 }
+	.container .row .service .service-info{
+		margin-left:-20%;
+	}
+	.promo-section #contato ul li{
+		font-size:100%;
+	}
+	.footer #cachacas a{
+		font-size:100%;
+	}
+}
+@media (max-width:390px){
+	 .container .row .service,.container .row .service{
+		margin-left:0%;
+		width:95%;
+	 }
+	.promo-section #contato{
+		margin-left:30%;
+	}
+	.promo-section #contato ul li{
+		font-size:90%;
+	}
+	
+}
