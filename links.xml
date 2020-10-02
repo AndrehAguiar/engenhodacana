@@ -1,0 +1,58 @@
+<pages>
+	<link>
+		<title>Premios</title>
+		<url>index.php#premios</url>
+	</link>
+	<link>
+		<title>Cachaças em Destaque</title>
+		<url>index.php#destaques</url>
+	</link>
+	<link>
+		<title>Eventos</title>
+		<url>index.php#eventos</url>
+	</link>
+	<link>
+		<title>Onde Comprar</title>
+		<url>index#locais</url>
+	</link>
+	<link>
+		<title>Cachaças Engenho da Cana</title>
+		<url>cachaca.php#cachacas</url>
+	</link>
+	<link>
+		<title>Engenho da Cana</title>
+		<url>cachaca.php#edc</url>
+	</link>
+	<link>
+	<title>Alambique de Minas</title>
+		<url>cachaca.php#adm</url>
+	</link>
+	<link>
+		<title>Nossa Rainha</title>
+		<url>cachaca.php#nr</url>
+	</link>
+	<link>
+		<title>Bola da Vez</title>
+		<url>cachaca.php#bdv</url>
+	</link>
+	<link>
+		<title>Nossa História</title>
+		<url>engenho.php#nossa-historia</url>
+	</link>
+	<link>
+		<title>Depoimentos</title>
+		<url>engenho.php#depoimentos-fas</url>
+	</link>
+	<link>
+		<title>Cachaças Premiadas</title>
+		<url>engenho.php#premios</url>
+	</link>
+	<link>
+		<title>E-mail</title>
+		<url>contato.php#form</url>
+	</link>
+	<link>
+		<title>Pontos de dose</title>
+		<url>compra.php#dose</url>
+	</link>
+</pages>
